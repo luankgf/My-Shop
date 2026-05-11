@@ -12,7 +12,7 @@ Atualmente os dados são mockados em `src/data/products.ts`, mas serão substitu
 - TypeScript  
 - Styled‑Components  
 - React Icons  
-- Redux (planejado)  
+- Redux  
 
 ---
 
@@ -25,11 +25,11 @@ A arquitetura está organizada para permitir evolução contínua, incluindo int
 ##  Status
 - ✅ UI e componentes principais implementados  
 - ✅ Dados mockados em `src/data/products.ts`  
-- ✅ Tipagem com TypeScript aplicada nos componentes  
+- ✅ Tipagem com TypeScript aplicada nos componentes 
+- ✅ Redux para gerenciamento global do estado   
 
 ### Próximos passos
 - 🔄 Substituir dados mockados por API  
-- 🔄 Implementar Redux para gerenciamento global do estado  
 - 🔄 Adicionar testes unitários e de integração  
 - 🔄 Configurar CI/CD e deploy  
 
