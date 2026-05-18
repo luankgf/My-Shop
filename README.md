@@ -1,9 +1,9 @@
 
 # 🛍️ MyShop
 
-**MyShop** é um e‑commerce em desenvolvimento criado com **React**, **TypeScript** e **Styled‑Components**.  
+**MyShop** é um e‑commerce em desenvolvimento criado com React, TypeScript , Styled‑Components e Redux.  
 O projeto serve como portfólio técnico e base para um produto real: catálogo de produtos, visualização de itens e carrinho.  
-Atualmente os dados são mockados em `src/data/products.ts`, mas serão substituídos futuramente por uma **API** e gerenciamento de estado com Redux.
+Atualmente os dados são mockados em `src/data/products.ts`, mas serão substituídos futuramente por uma API e gerenciamento de estado com Redux.
 
 ---
 
