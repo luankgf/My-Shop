@@ -21,7 +21,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
   const dispatch = useDispatch()
 
   //* Variável booleana que informa se o produto está no carrinho:
-  // cart é o arra de produtos
+  // cart é o array de produtos
   const isProductOnCart = cart.find(productOnCart => product.id === productOnCart.id ) !== undefined;
   // estou pedindo pra ele encontrar um produto cujo ID seja igual ao produto que está no card, sendo exibido no navegador.
   // find: se ele encontrar um produto que respeita essa condição (dá true), ele retorna o produto que ele encontrou.

@@ -26,14 +26,24 @@ A arquitetura está organizada para permitir evolução contínua, incluindo int
 - ✅ UI e componentes principais implementados  
 - ✅ Dados mockados em `src/data/products.ts`  
 - ✅ Tipagem com TypeScript aplicada nos componentes 
-- ✅ Redux para gerenciamento global do estado   
+- ✅ Redux para gerenciamento global do estado
+- ✅ Testes unitários iniciais com Jest e React Testing Library    
 
 ### Próximos passos
 - 🔄 Substituir dados mockados por API  
-- 🔄 Adicionar testes unitários e de integração  
+- 🔄 Expandir cobertura de testes (integração e e2e)  
 - 🔄 Configurar CI/CD e deploy  
 
 ---
+
+## Testes
+O projeto conta com **testes unitários** utilizando **Jest** e **React Testing Library**.  
+Exemplo: o componente **CartComponent** possui testes que validam a renderização correta do título e o comportamento quando o carrinho está vazio.
+
+Para rodar os testes:
+```bash
+npm test
+
 
 ##  Como rodar localmente
 **Pré‑requisitos**: Node.js e npm ou Yarn
