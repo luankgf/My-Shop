@@ -41,7 +41,7 @@ O projeto conta com **testes unitários** utilizando **Jest** e **React Testing 
 Exemplo: o componente **CartComponent** possui testes que validam a renderização correta do título e o comportamento quando o carrinho está vazio.
 
 Para rodar os testes:
-```bash
+
 npm test
 
 
