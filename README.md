@@ -12,7 +12,8 @@ Atualmente os dados são mockados em `src/data/products.ts`, mas serão substitu
 - TypeScript  
 - Styled‑Components  
 - React Icons  
-- Redux  
+- Redux 
+- Jest + React Testing Library  
 
 ---
 
@@ -41,7 +42,6 @@ O projeto conta com **testes unitários** utilizando **Jest** e **React Testing 
 Exemplo: o componente **CartComponent** possui testes que validam a renderização correta do título e o comportamento quando o carrinho está vazio.
 
 Para rodar os testes:
-
 npm test
 
 
